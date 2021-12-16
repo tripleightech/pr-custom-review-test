@@ -2,16 +2,14 @@ approval_groups:
   - name: HEADS
     condition: 👤.*(\n^[\+|\-].*)|^[\+|\-].*👤
     check_type: pr_diff_body
-    min_approvals: 2
+    min_approvals: 1
     users:
     teams:
-      - s737team
+      - pr-custom-review-team
   - name: BAGS
     condition: 👜.*(\n^[\+|\-].*)|^[\+|\-].*👜
     check_type: pr_diff_body
     min_approvals: 1
     users:
-      - sergioko747
-      - sergioko737
-      - sergioko757
+      - sergejparity
     teams:
