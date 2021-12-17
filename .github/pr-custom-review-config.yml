@@ -7,7 +7,7 @@ approval_groups:
     teams:
       - pr-custom-review-team
   - name: BAGS
-    condition: 👜
+    condition: 👜.*(\n^[\+|\-].*)|^[\+|\-].*👜
     check_type: pr_diff_body
     min_approvals: 1
     users:
