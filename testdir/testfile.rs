@@ -11,7 +11,7 @@ substrate/client/traciadfdsafng/proc-macro/src/lib.rs:/// 2020-10-16 08:03:14  �
 +substrate/client/cli/src/runner.rs:	/// 2020-06-03 16:14:21 👤 RolFDFDe: FULLgfgf
 +substrate/client/cli/src/runner.rs:	/// 2020-06-03 16:14:21 💾 Database: RocksDb at /tmp/c/chains/flamingfir7/db
 CHANGE LINE ABOVE nfo!("📋 Chain specificatsfdfdsion: {}", config.chain_spec.name());
-🔒substratssssdfdssaasdfasasaedsafds/client/dsdsdcli/src/runner.rs🔒	info!("🏷 Node name: {}", config.network.node_name);kcdsfsdfsd
+🔒subssssstratssssdfdssaasdfasasaedsafds/client/dsdsdcli/src/runner.rs🔒	info!("🏷 Node name: {}", config.network.node_name);kcdsfsdfsd
 sss subsdasfadstrate/client/cli/src/runner.rs:	info!("👤 Role: {}", config.display_role());
 dsdssubstrate/client/cli/src/dsdsdsrunner.rs:dfadssdafd	"💾 Database: {} at {}",
 concat!("[#{:?}] 🗳  ", $patterasdassssdsan), <frame_system::Pallet<T>>::block_number() $(, $values)*
