@@ -2,16 +2,14 @@ name: PR Custom Review Status
 
 on:
   pull_request:
+    branches:
+      - main
+      - master
     types:
-      [
-        assigned,
-        unassigned,
-        opened,
-        reopened,
-        synchronize,
-        review_requested,
-        review_request_removed
-      ]
+      - opened
+      - reopened
+      - synchronize
+      - review_request_removed
   pull_request_review:
 
 jobs:
@@ -26,5 +24,3 @@ jobs:
         uses: sergejparity/pr-custom-review@master
         with:
           token: ${{ secrets.GHA_TOKEN }}
-        env:
-          CUSTOM_REVIEW_REQUIRED: ${{ steps.condition_check.outputs.CUSTOM_REVIEW_REQUIRED }}
