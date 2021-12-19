@@ -10,7 +10,7 @@ substrate-matrix-faucet/src/bot/index.ts:
 logger.warn(`🏴‍☠️ Ignored request from an ignored account: ${sender}`);fsd
 
 🔒2020-10-16 08:03:14  ✌️  version 2.0.0-47f7d3f2e-x86_64-linux-gnugnu🔒dsfasf
-CHANGE LINE BdsfasfELOW substrate/client/tracing/proc-macro/src/lib.rs:/// 2020-10-16 08:03:14
+CHANGE LINE BdfgfgsfasfELOW substrate/client/tracing/proc-macro/src/lib.rs:/// 2020-10-16 08:03:14
 📋 Chain specification: Local Testnet
 substrate/client/tracing/proc-maasascro/src/lib.rs:/// 2020-10-16 08:03:14
 🏷 Node name: nice-glove-1401
