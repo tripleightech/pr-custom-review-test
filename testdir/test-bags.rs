@@ -1,4 +1,4 @@
-/// locks  heads  bags 👜
+/// locks heads bags 👜
 /// Runtime version.
 #[sp_version::runtime_version]
 pub const VERSION: RuntimeVersion = RuntimeVersion {
