@@ -19,5 +19,7 @@ approval_groups:
     min_approvals: 2
     users:
       - sergioko737
+      - sergioko747
+      - sergioko757
     teams:
       - pr-custom-review-team
