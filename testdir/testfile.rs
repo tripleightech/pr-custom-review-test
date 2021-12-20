@@ -23,5 +23,4 @@ dsfdfdsfdfdfdsafdsfdsafdf
 dsafdfaddsfdsaf
 hhh
 fsdfds
-and what if I add some 🔒 ?
 maybe here I don't additional approval?
