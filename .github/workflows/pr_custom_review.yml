@@ -23,4 +23,4 @@ jobs:
       - name: pr-custom-review
         uses: paritytech/pr-custom-review@master
         with:
-          token: ${{ secrets.GHA_ORG_TOKEN }}
+          token: ${{ secrets.GHA_TOKEN }}
