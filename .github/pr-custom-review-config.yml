@@ -14,7 +14,7 @@ approval_groups:
     teams:
       - pr-custom-review-team
   - name: runtime lib.rs
-    condition: .*/runtime/.*lib.rs|.gitlab-ci.yml
+    condition: .*/runtime/.*lib.rs
     check_type: pr_files
     min_approvals: 2
     users:
