@@ -18,8 +18,5 @@ approval_groups:
     check_type: pr_files
     min_approvals: 2
     users:
-      - sergioko737
-      - sergioko747
-      - sergioko757
     teams:
       - pr-custom-review-team
