@@ -4,6 +4,7 @@ rules:
     check_type: diff
     min_approvals: 1
     users:
+      - sergejparity
     teams:
       - pr-custom-review-team
   - name: BAGS
@@ -11,6 +12,7 @@ rules:
     check_type: diff
     min_approvals: 1
     users:
+      - sergejparity
     teams:
       - pr-custom-review-team
   - name: runtime lib.rs
@@ -18,5 +20,6 @@ rules:
     check_type: changed_files
     min_approvals: 2
     users:
+      - sergejparity
     teams:
       - pr-custom-review-team
