@@ -18,6 +18,7 @@ rules:
       - sergioko747
       - sergioko757
     teams:
+      - sergej-test
   - name: runtime lib.rs
     condition: .*/runtime/.*lib.rs
     check_type: changed_files
