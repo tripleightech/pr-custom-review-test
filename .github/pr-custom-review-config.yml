@@ -7,7 +7,7 @@ rules:
       - sergioko747
       - sergioko757
     teams:
-      - sergej-test
+      - sergej-test2
   - name: BAGS
     condition: (👜.*(\n^[\+|\-].*)|^[\+|\-].*👜)
     check_type: diff
@@ -16,7 +16,7 @@ rules:
       - sergioko737
       - sergioko757
     teams:
-      - sergej-test
+      - sergej-test2
   - name: runtime lib.rs
     condition: .*/runtime/.*lib.rs
     check_type: changed_files
@@ -25,4 +25,4 @@ rules:
       - sergioko737
       - sergioko747
     teams:
-      - sergej-test
+      - sergej-test2
