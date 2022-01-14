@@ -4,6 +4,9 @@ rules:
     check_type: diff
     min_approvals: 1
     users:
+      - sergioko737
+      - sergioko747
+      - sergioko757
     teams:
       - sergej-test
   - name: BAGS
