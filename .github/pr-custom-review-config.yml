@@ -4,7 +4,6 @@ rules:
     check_type: diff
     min_approvals: 1
     users:
-      - sergioko737
       - sergioko747
       - sergioko757
     teams:
@@ -15,7 +14,6 @@ rules:
     min_approvals: 1
     users:
       - sergioko737
-      - sergioko747
       - sergioko757
     teams:
       - sergej-test
@@ -26,6 +24,5 @@ rules:
     users:
       - sergioko737
       - sergioko747
-      - sergioko757
     teams:
       - sergej-test
