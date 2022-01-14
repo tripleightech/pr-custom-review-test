@@ -1,22 +1,27 @@
 approval_groups:
   - name: HEADS
     condition: 👤.*(\n^[\+|\-].*)|^[\+|\-].*👤
-    check_type: pr_diff
+    check_type: diff
     min_approvals: 1
     users:
     teams:
-      - pr-custom-review-team
+      - sergej-test
   - name: BAGS
     condition: (👜.*(\n^[\+|\-].*)|^[\+|\-].*👜)
-    check_type: pr_diff
+    check_type: diff
     min_approvals: 1
     users:
+      - sergioko737
+      - sergioko747
+      - sergioko757
     teams:
-      - pr-custom-review-team
   - name: runtime lib.rs
     condition: .*/runtime/.*lib.rs
-    check_type: pr_files
+    check_type: changed_files
     min_approvals: 2
     users:
+      - sergioko737
+      - sergioko747
+      - sergioko757
     teams:
-      - pr-custom-review-team
+      - sergej-test
