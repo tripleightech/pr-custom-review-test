@@ -20,3 +20,12 @@ rules:
     users:
     teams:
       - pr-custom-review-team
+  - name: jp
+    condition: jp
+    check_type: changed_files
+    min_approvals: 2
+    users:
+      - jpgremio
+    teams:
+      - jp
+      
