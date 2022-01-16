@@ -24,3 +24,4 @@ jobs:
         uses: paritytech/pr-custom-review@master
         with:
           token: ${{ secrets.GHA_TOKEN }}
+          locks-review-team: jp
