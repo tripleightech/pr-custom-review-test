@@ -22,7 +22,7 @@ rules:
     check_type: changed_files
     min_approvals: 2
     users:
-      - sergioko737
+      - sergioko737-wrong
       - sergioko747
     teams:
-      - sergej-test2
+      - sergej-test2-wrong
