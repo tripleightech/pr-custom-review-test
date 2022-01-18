@@ -25,3 +25,4 @@ jobs:
         with:
           token: ${{ secrets.GHA_TOKEN }}
           locks-review-team: pr-custom-review-team
+          team-leads-team: jp
