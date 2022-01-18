@@ -23,7 +23,7 @@ rules:
   - name: jp
     condition: jp
     check_type: changed_files
-    all:
+    any:
       - min_approvals: 1
         users:
         - jpgremio
