@@ -23,8 +23,10 @@ rules:
   - name: jp
     condition: jp
     check_type: changed_files
-    min_approvals: 2
-    users:
-      - jpgremio
-    teams:
-      - jp
+    all:
+      - min_approvals: 1
+        users:
+        - jpgremio
+      - min_approvals: 2
+        teams:
+        - jp
