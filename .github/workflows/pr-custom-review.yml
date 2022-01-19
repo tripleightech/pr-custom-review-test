@@ -21,7 +21,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: pr-custom-review
-        uses: paritytech/pr-custom-review@master
+        uses: joao-paulo-parity/pr-custom-review@tag
         with:
           token: ${{ secrets.GHA_TOKEN }}
           locks-review-team: pr-custom-review-team
