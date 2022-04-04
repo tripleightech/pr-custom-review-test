@@ -1,3 +1,10 @@
+inputs:
+  locks-review-team: pr-custom-review-team
+  team-leads-team: jp
+  action-review-team: pr-custom-review-team
+prevent_review_requests:
+  teams:
+    - jp
 rules:
   - name: HEADS
     condition: 👤.*(\n^[\+|\-].*)|^[\+|\-].*👤
