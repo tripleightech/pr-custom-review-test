@@ -24,6 +24,3 @@ jobs:
         uses: joao-paulo-parity/pr-custom-review@tag
         with:
           token: ${{ secrets.GHA_TOKEN }}
-          locks-review-team: pr-custom-review-team
-          team-leads-team: jp
-          action-review-team: pr-custom-review-team
