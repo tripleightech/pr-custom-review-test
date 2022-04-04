@@ -1,9 +1,6 @@
 locks-review-team: pr-custom-review-team
 team-leads-team: jp
 action-review-team: pr-custom-review-team
-prevent_review_request:
-  teams:
-    - jp
 rules:
   - name: HEADS
     condition: 👤.*(\n^[\+|\-].*)|^[\+|\-].*👤
@@ -36,3 +33,6 @@ rules:
       - min_approvals: 2
         teams:
         - jp
+prevent-review-request:
+  teams:
+    - jp
