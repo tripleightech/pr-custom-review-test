@@ -1,8 +1,7 @@
-inputs:
-  locks-review-team: pr-custom-review-team
-  team-leads-team: jp
-  action-review-team: pr-custom-review-team
-prevent_review_requests:
+locks-review-team: pr-custom-review-team
+team-leads-team: jp
+action-review-team: pr-custom-review-team
+prevent_review_request:
   teams:
     - jp
 rules:
