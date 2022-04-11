@@ -18,11 +18,11 @@ jobs:
     steps:
       - name: Generate App Auth Token
         id: get_token
-        uses: microsoftgraph/get-app-token@5dc4e815ea2f976c51b11ea6f9e6310e06c55677
+        uses: tibdex/github-app-token@586e1a624db6a5a4ac2c53daeeded60c5e3d50fe
         with:
-          application-id: ${{ secrets.PRCR_APP_ID }}
-          application-private-key: ${{ secrets.PRCR_APP_PKEY }}
+          app_id: ${{ secrets.PRCR_APP_ID }}
+          private_key: ${{ secrets.PRCR_APP_PKEY }}
       - name: pr-custom-review
         uses: paritytech/pr-custom-review@v2
         with:
-          token: ${{ steps.get_token.outputs.app-token }}
+          token: ${{ steps.get_token.outputs.token }}
