@@ -1,7 +1,7 @@
 name: pr-custom-review
 
 on:
-  pull_request:
+  pull_request_target:
     branches:
       - main
       - master
@@ -16,13 +16,7 @@ jobs:
   assign_reviewers:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate App Auth Token
-        id: get_token
-        uses: tibdex/github-app-token@586e1a624db6a5a4ac2c53daeeded60c5e3d50fe
-        with:
-          app_id: ${{ secrets.PRCR_APP_ID }}
-          private_key: ${{ secrets.PRCR_APP_PKEY }}
       - name: pr-custom-review
         uses: paritytech/pr-custom-review@v2
         with:
-          token: ${{ steps.get_token.outputs.token }}
+          token: ${{ secrets.GHA_TOKEN }}
